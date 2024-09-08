@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* logo */}
       <div className="flex items-center gap-1 capitalize">
         <img src={Logo} alt="pic" className="w-10" />
-        <span className="font-extrabold text-2xl ">Interior</span>
+        <span className="font-extrabold text-2xl uppercase">Interior</span>
       </div>
       {/* link */}
       <div className=" hidden md:flex">
@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
       {/* button */}
       <div>
-        <button className="border border-black px-3 py-2 shadow-[5px_5px_0px_0px] hover:bg-black hover:text-white transition ease-in-out">
+        <button className="border font-semibold border-black px-3 py-2 shadow-[5px_5px_0px_0px_#6c6c6c] hover:bg-black hover:text-white duration-500">
           Try For Free
         </button>
       </div>
